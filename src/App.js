@@ -1,9 +1,17 @@
+import React, { Component } from 'react';
 import './App.css';
+import FormularioCadastro from './components/formularioCadastro';
+import ListaDeNotas from "./components/ListaDeNotas"
 
-function App() {
-  return (
-    <h1>Oi</h1>
-  );
+class App extends Component {
+  render() {
+    return (
+      <section>
+        <FormularioCadastro />
+        <ListaDeNotas />
+      </section >
+    );
+  }
 }
 
 export default App;
