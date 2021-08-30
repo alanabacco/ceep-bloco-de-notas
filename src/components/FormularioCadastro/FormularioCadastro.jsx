@@ -28,18 +28,20 @@ class FormularioCadastro extends Component {
   render() {
     return (
       <form className="form-cadastro" onSubmit={this._criarNota.bind(this)}>
-        <label>Título:</label>
+        <label htmlFor="form-cadastro_titulo">Título:</label>
         <input
           type="text"
           placeholder="Título"
+          id="form-cadastro_titulo"
           className="form-cadastro_input"
           onChange={this._handleMudancaTitulo.bind(this)}
         />
         <br />
-        <label>Escreva sua nota:</label>
+        <label htmlFor="form-cadastro_nota">Escreva sua nota:</label>
         <textarea
           rows={15}
           placeholder="Escreva sua nota..."
+          id="form-cadastro_nota"
           className="form-cadastro_input"
           onChange={this._handleMudancaTexto.bind(this)}
         />

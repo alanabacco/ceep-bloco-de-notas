@@ -1,8 +1,20 @@
 # 📃 Bloco de Notas Ceep
 
+🚧 Em construção 🚧
+
 ## Sobre
 
-Este projeto foi criado na durante o curso ["React: entendendo como a biblioteca funciona"](https://cursos.alura.com.br/course/react-js) da [Alura](https://www.alura.com.br/).
+Este projeto foi criado na durante os cursos de ["React"](https://cursos.alura.com.br/formacao-react-js) da [Alura](https://www.alura.com.br/). É uma aplicação para criar notas.
+
+---
+
+## Funcionalidades
+
+- Criar nota;
+    - categoria;
+    - título;
+    - descrição.
+- Botão de deletar nota;
 
 ---
 
